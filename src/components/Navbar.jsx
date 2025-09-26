@@ -41,9 +41,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-        >
-        
-        </Link>
+        ></Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
@@ -100,10 +98,13 @@ const Navbar = () => {
               <path d='M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z'/>
             </svg>
           </a>
+          {/* WhatsApp بدل الهاتف */}
           <a
-            href='tel:+972 59509547'
+            href='https://wa.me/97259509547'
+            target='_blank'
+            rel='noreferrer'
             className='opacity-80 hover:opacity-100 transition'
-            aria-label='Phone'
+            aria-label='WhatsApp'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -184,9 +185,12 @@ const Navbar = () => {
                     <path d='M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z'/>
                   </svg>
                 </a>
+                {/* WhatsApp بدل الهاتف */}
                 <a
-                  href='tel:+0000000000'
-                  aria-label='Phone'
+                  href='https://wa.me/97259509547'
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='WhatsApp'
                   className='opacity-80 hover:opacity-100 transition'
                 >
                   <svg

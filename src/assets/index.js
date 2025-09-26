@@ -5,7 +5,7 @@ import sharkodP from "./sharkod.gif";
 import solP from "./sol.gif";
 import choaches from "./choaches.gif"
 
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";

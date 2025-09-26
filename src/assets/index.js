@@ -1,3 +1,10 @@
+import carshop from "./carshop.gif";
+import chippy from "./chippy.gif";
+import educenter from "./educenter.gif";
+import sharkodP from "./sharkod.gif";
+import solP from "./sol.gif";
+import choaches from "./choaches.gif"
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -8,6 +15,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import canva from "./tech/canva.png";
+import postgres from "./tech/postgres.svg";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -25,12 +34,21 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import gsg from "./company/gsg.jpeg";
+import ppu from "./company/ppu.jpeg";
+import sharkod from "./company/sharkod.jpeg";
+import sol from "./company/sol.jpeg";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  gsg,
+  ppu,
+  sharkod,
+  sol,
   logo,
   backend,
   creator,
@@ -59,4 +77,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  canva,
+  postgres,
+  carshop,
+  chippy,
+  educenter,
+  sharkodP,
+  solP,
+  choaches
 };

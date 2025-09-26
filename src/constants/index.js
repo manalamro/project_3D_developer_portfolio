@@ -13,16 +13,25 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
+  postgres,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  gsg,
+  ppu,
+  sharkod,
+  sol,
+  carshop,
+  chippy,
+  educenter,
+  sharkodP,
+  solP,
+  choaches
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +51,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "front-end Developer",
     icon: web,
   },
   {
@@ -54,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "teach teacher",
     icon: creator,
   },
 ];
@@ -84,6 +93,7 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -97,74 +107,68 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+  name: "Postgres SQL",
+    icon: postgres,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+  
 ];
+
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack intern",
+    company_name: "solution",
+    icon:sol,
+    iconBg: "white",
+    date: "May 2025 – September 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked remotely in a team environment, strengthening collaboration and social skills, while designing all UI/UX elements myself in the e-commerce website.",
+      "Built production-ready apps (POS & e-commerce website called Chippy) with React, Electron, TypeScript, Express, and PostgreSQL, incorporating designs I created.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated in an Agile team using Git, utilizing Zustand for state management and i18n for translations, with all app designs personally crafted.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Computer Lab Supervisor",
+    company_name: "Palestine Polytechnic University",
+    icon: ppu,
+    iconBg: "white",
+    date: "September 2024 – January 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Conducted computer lab sessions, teaching foundational skills in Microsoft Excel, Word, PowerPoint, C++, and Data Structures.",
+    "Assisted students with practical applications of theoretical concepts to strengthen their understanding of programming and data handling",
+    "Enhanced student engagement through interactive lessons and one-on-one support."
+  ],
+  },
+
+
+  {
+    title: "Front-End Developer",
+    company_name: "Sharkod",
+    icon: sharkod,
+    iconBg: "white",
+    date: "May 2024 – July 2024",
+    points: [
+      "Worked remotely to contribute to the development of an HR system, enhancing teamwork and gaining in-depth knowledge of HR features.",
+      "Integrated backend APIs with modern frontend designs, improving user experience and interface aesthetics using React and Tailwind UI/UX.",
+      "Applied Git version control and collaborative development methodologies effectively.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "React Trainee",
+    company_name: "Gaza Sky Geeks",
+    icon: gsg,
+    iconBg: "black",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked in a team environment, strengthening collaboration and social skills.",
+      "Gained proficiency in React fundamentals, including JSX, hooks, services, routing, and context, by building multiple projects.",
     ],
   },
 ];
@@ -198,68 +202,84 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SOL",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern platform built with React, Node.js, and MongoDB to manage educational centers. It provides tools for handling students, courses, teachers, financial operations, and generating reports.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: solP, // replace with your project image
+    source_code_link: "https://github.com/manalamro/sol",
+    live_demo: "https://sol-pi-five.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Chippy E-Commerce",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A professional full-stack e-commerce application. The backend is built with Node.js/Express and PostgreSQL, and the frontend with React + Vite. It fully supports Arabic and English with RTL/LTR layouts, advanced cart and order management, and an admin dashboard.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "postgresql", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chippy, // add your project image
+    source_code_link: "https://github.com/manalamro/chippy",
+    live_demo: "https://chippy-manals-projects-ec1b19ad.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "CenterApp",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An education management platform to handle students, teachers, courses, enrollments, payments, and operating costs. Built with a React frontend and a Node.js/Express + MongoDB backend.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "ant design", color: "pink-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: educenter, // add your project image
+    source_code_link: "https://github.com/manalamro/centerApp",
   },
+  {
+    name: "Car Shop",
+    description:
+      "A frontend project for a car shop. Cars are displayed as sliding cards with filtering and search functionality. Includes a details page for each car and admin features for adding new cars.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+    ],
+    image: carshop, // add your project image
+    source_code_link: "https://github.com/manalamro/car-shop",
+  },
+  {
+    name: "Sharkod HR System",
+    description:
+      "A complete HR management system (SaaS) designed to streamline human resources processes including employees, contracts, payroll, and reporting.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nextjs", color: "yellow-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "postgres", color: "pink-text-gradient" },
+    ],
+    image: sharkodP, // add your project image
+    source_code_link: "https://sharkod.com/",
+  },
+  {
+    name: "Coaches Platform",
+    description:
+      "An online coaching and learning platform built on Graphy. It provides pages for coaches to showcase their programs, manage sessions, and interact with learners.",
+    tags: [
+      { name: "graphy", color: "blue-text-gradient" },
+      { name: "saas", color: "green-text-gradient" },
+      { name: "platform", color: "pink-text-gradient" },
+    ],
+    image:choaches, // add your project image here
+    source_code_link: "https://abdelmageed.graphy.com/s/pages/coaches",
+  }
+  
+  
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

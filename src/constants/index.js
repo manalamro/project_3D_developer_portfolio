@@ -164,7 +164,7 @@ const experiences = [
     company_name: "Gaza Sky Geeks",
     icon: gsg,
     iconBg: "black",
-    date: "Jan 2023 - Present",
+    date: "September 2022 – December 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Worked in a team environment, strengthening collaboration and social skills.",

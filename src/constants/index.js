@@ -240,6 +240,7 @@ const projects = [
     ],
     image: educenter, // add your project image
     source_code_link: "https://github.com/manalamro/centerApp",
+    live_demo:"https://www.linkedin.com/posts/manal-amro-80131a258_exciting-news-i-am-thrilled-to-announce-activity-7187063509594083328-_bpq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9oPQEBAPTJ-w1-5Uh1yceCBPN5BL3bIRs"
   },
   {
     name: "Car Shop",

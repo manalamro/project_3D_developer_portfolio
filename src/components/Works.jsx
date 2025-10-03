@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, external_link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -60,6 +61,20 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+
+        <div className="mt-4">
+          <button
+            onClick={() => window.open(live_demo || source_code_link, "_blank")}
+            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+          >
+            <img
+              src={external_link}
+              alt="external link"
+              className="w-4 h-4"
+            />
+            Show Demo
+          </button>
         </div>
       </Tilt>
     </motion.div>

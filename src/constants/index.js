@@ -251,6 +251,8 @@ const projects = [
     ],
     image: carshop, // add your project image
     source_code_link: "https://github.com/manalamro/car-shop",
+    live_demo: "https://user-images.githubusercontent.com/105562468/213748037-33f9b392-0f5a-4e4b-ad7d-6968c969f167.mp4",
+
   },
   {
     name: "Sharkod HR System",
@@ -263,7 +265,7 @@ const projects = [
       { name: "postgres", color: "pink-text-gradient" },
     ],
     image: sharkodP, // add your project image
-    source_code_link: "https://sharkod.com/",
+    live_demo: "https://sharkod.com/",
   },
   {
     name: "Coaches Platform",
@@ -275,7 +277,7 @@ const projects = [
       { name: "platform", color: "pink-text-gradient" },
     ],
     image:choaches, // add your project image here
-    source_code_link: "https://abdelmageed.graphy.com/s/pages/coaches",
+    live_demo: "https://abdelmageed.graphy.com/s/pages/coaches",
   }
   
   
